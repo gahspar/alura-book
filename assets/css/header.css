@@ -1,0 +1,60 @@
+
+.cabecalho__menu-hamburguer {
+    width: 36px;
+    height: 24px;
+    background-image: url("file:///C:/Users/CAVALA~1/AppData/Local/Temp/Menu.svg");
+    display: inline-block;
+    
+}
+
+.cabecalho {
+    height: 80px;
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.container-imagem{
+    padding: 1em;
+}
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container__botao:checked ~.lista-menu {
+    display: block;
+}
+.lista-menu__link {
+    text-decoration: none;
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+    background: var(--degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.lista-menu__titulo {
+    color: var(--laranja);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--fonte);
+}
+
+.lista-menu__titulo, 
+.lista-menu__item {
+    padding: 1em;
+    background-color: #ffffff;
+}

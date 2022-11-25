@@ -1,0 +1,37 @@
+.banner {
+    font-family: var(--fonte);
+    background: var(--degrade);
+    color: white;
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.titulo-banner {
+    font-size: 18px;
+    font-weight:700;
+}
+
+.descricao-banner {
+    margin: 1em;
+}
+
+.banner__pesquisa {
+    font-family: var(--fonte);
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 24px;
+    width: 90%;
+    padding: 10px;
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--fonte);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background: url("file:///C:/Users/CAVALA~1/AppData/Local/Temp/Pesquisa-3.svg");
+    background-repeat: no-repeat;
+    background-position: 1em;
+    color: white;
+}
